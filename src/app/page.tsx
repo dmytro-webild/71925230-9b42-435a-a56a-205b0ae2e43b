@@ -52,9 +52,9 @@ export default function LandingPage() {
       titleClassName="text-5xl md:text-7xl font-extrabold"
       mediaItems={[
         {
-          imageSrc: "https://images.unsplash.com/photo-1596461404966-09c899d07cab?auto=format&fit=crop&q=80&w=1600",          imageAlt: "Professional HVAC technician servicing a residential unit"},
+          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CzzCyGg9qWO1sPMhfX3ty0YMRu/uploaded-1777404208405-h0r8v34e.jpg",          imageAlt: "Professional HVAC technician servicing a residential unit"},
         {
-          imageSrc: "https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&q=80&w=1600",          imageAlt: "Modern home heating system and ductwork"}
+          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CzzCyGg9qWO1sPMhfX3ty0YMRu/uploaded-1777404246385-nkk5te0e.jpg",          imageAlt: "Modern home heating system and ductwork"}
       ]}
       mediaAnimation="slide-up"
       rating={5}
