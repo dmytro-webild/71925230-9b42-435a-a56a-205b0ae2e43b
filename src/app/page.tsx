@@ -44,7 +44,7 @@ export default function LandingPage() {
 
   <div id="hero" data-section="hero">
       <HeroSplitDualMedia
-      background={{ variant: "gradient-bars" }}
+      background={{ variant: "radial-gradient" }}
       title="Patriot Heating and Cooling LLC"
       description="Professional HVAC solutions for your home and business. Always on time, always reliable. Providing premium comfort in every season."
       tag="24/7 Emergency Service"
