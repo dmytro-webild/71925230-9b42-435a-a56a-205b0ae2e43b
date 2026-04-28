@@ -52,9 +52,9 @@ export default function LandingPage() {
       titleClassName="text-5xl md:text-7xl font-extrabold"
       mediaItems={[
         {
-          imageSrc: "http://img.b2bpic.net/free-photo/professional-repairmen-enlisted-air-conditioner-check-refilling-freon-expert-african-american-mechanic-colleague-using-manometers-precisely-measure-pressure-condenser_482257-65757.jpg",          imageAlt: "Technician"},
+          imageSrc: "https://images.unsplash.com/photo-1542744173-8e7e5341508a?q=80&w=1600&auto=format&fit=crop",          imageAlt: "Country residential home exterior"},
         {
-          imageSrc: "http://img.b2bpic.net/free-photo/3d-rendering-ventilation-system_23-2149281306.jpg",          imageAlt: "Equipment"}
+          imageSrc: "https://images.unsplash.com/photo-1574362848149-11d06bdad3f7?q=80&w=1600&auto=format&fit=crop",          imageAlt: "Comfortable home interior living room"}
       ]}
       mediaAnimation="slide-up"
       rating={5}
