@@ -9,7 +9,6 @@ import FeatureBorderGlow from '@/components/sections/feature/featureBorderGlow/F
 import FooterLogoEmphasis from '@/components/sections/footer/FooterLogoEmphasis';
 import HeroSplitDualMedia from '@/components/sections/hero/HeroSplitDualMedia';
 import NavbarStyleFullscreen from '@/components/navbar/NavbarStyleFullscreen/NavbarStyleFullscreen';
-import PricingCardThree from '@/components/sections/pricing/PricingCardThree';
 import TestimonialCardSix from '@/components/sections/testimonial/TestimonialCardSix';
 import { Award, Clock, Flame, Gauge, Shield, ShieldCheck, Truck, Users, Wind, Zap } from "lucide-react";
 
@@ -113,21 +112,6 @@ export default function LandingPage() {
     />
   </div>
 
-  <div id="pricing" data-section="pricing">
-      <PricingCardThree
-      animationType="slide-up"
-      textboxLayout="split"
-      useInvertedBackground={false}
-      plans={[
-        { id: "basic", name: "Maintenance", price: "$89", features: ["Seasonal Tune-up", "Filter Check", "Priority Scheduling"], buttons: [{ text: "Book Now" }] },
-        { id: "pro", name: "Deep Clean", price: "$199", features: ["Full System Flush", "Coil Sanitization", "Energy Audit"], buttons: [{ text: "Book Now" }] },
-        { id: "prem", name: "Premium Care", price: "$399", features: ["Annual Coverage", "All Repairs Included", "24/7 Hotline"], buttons: [{ text: "Book Now" }] },
-      ]}
-      title="Transparent Pricing"
-      description="Simple plans for your home comfort needs."
-    />
-  </div>
-
   <div id="faq" data-section="faq">
       <FaqSplitText
       useInvertedBackground={true}
@@ -155,7 +139,7 @@ export default function LandingPage() {
   <div id="footer" data-section="footer">
       <FooterLogoEmphasis
       columns={[
-        { items: [{ label: "Services", href: "#features" }, { label: "About", href: "#about" }, { label: "Pricing", href: "#pricing" }] },
+        { items: [{ label: "Services", href: "#features" }, { label: "About", href: "#about" }] },
         { items: [{ label: "Privacy Policy", href: "#" }, { label: "Terms of Service", href: "#" }, { label: "Careers", href: "#" }] },
       ]}
       logoText="Patriot HVAC"
