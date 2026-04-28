@@ -37,7 +37,7 @@ export default function LandingPage() {
         { name: "Reviews", id: "testimonials" },
         { name: "Contact", id: "contact" },
       ]}
-      brandName="Patriot Heating and Cooling LLC"
+      brandName=""
       button={{ text: "(706) 305-4974", href: "tel:7063054974" }}
     />
   </div>
