@@ -41,7 +41,7 @@ export default function LandingPage() {
     />
   </div>
 
-  <div id="hero" data-section="hero">
+  <div id="hero" data-section="hero" style={{ paddingBottom: "var(--vw-1)" }}>
       <HeroSplitDualMedia
       background={{ variant: "radial-gradient" }}
       title="Patriot Heating and Cooling LLC"
