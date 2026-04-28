@@ -48,7 +48,7 @@ export default function LandingPage() {
       title="Patriot Heating and Cooling LLC"
       description="Professional HVAC solutions for your home and business. Always on time, always reliable. Providing premium comfort in every season."
       tag="24/7 Emergency Service"
-      buttons={[{ text: "Free Estimates", href: "#contact" }]
+      buttons={[{ text: "Free Estimates", href: "#contact" }]}
       titleClassName="text-5xl md:text-7xl font-extrabold"
       mediaItems={[
         {
@@ -86,11 +86,11 @@ export default function LandingPage() {
       useInvertedBackground={false}
       title="Why Choose Patriot"
       metrics={[
-        { icon: Clock, label: "Years Experience", value: "15+" },
-        { icon: Truck, label: "Emergency Calls", value: "24/7" },
-        { icon: Award, label: "Happy Clients", value: "1,000+" },
-        { icon: Shield, label: "Licensed Professionals", value: "100%" },
-        { icon: Users, label: "Team Members", value: "50+" },
+        { icon: Clock, label: "Years Experience", title: "Years Experience", value: "15+" },
+        { icon: Truck, label: "Emergency Calls", title: "Emergency Calls", value: "24/7" },
+        { icon: Award, label: "Happy Clients", title: "Happy Clients", value: "1,000+" },
+        { icon: Shield, label: "Licensed Professionals", title: "Licensed Professionals", value: "100%" },
+        { icon: Users, label: "Team Members", title: "Team Members", value: "50+" },
       ]}
       metricsAnimation="slide-up"
     />
@@ -119,9 +119,9 @@ export default function LandingPage() {
       textboxLayout="split"
       useInvertedBackground={false}
       plans={[
-        { id: "basic", price: "$89", name: "Maintenance", features: ["Seasonal Tune-up", "Filter Check", "Priority Scheduling"], buttons: [{ text: "Book Now" }] },
-        { id: "pro", price: "$199", name: "Deep Clean", features: ["Full System Flush", "Coil Sanitization", "Energy Audit"], buttons: [{ text: "Book Now" }] },
-        { id: "prem", price: "$399", name: "Premium Care", features: ["Annual Coverage", "All Repairs Included", "24/7 Hotline"], buttons: [{ text: "Book Now" }] },
+        { id: "basic", name: "Maintenance", price: "$89", features: ["Seasonal Tune-up", "Filter Check", "Priority Scheduling"], buttons: [{ text: "Book Now" }] },
+        { id: "pro", name: "Deep Clean", price: "$199", features: ["Full System Flush", "Coil Sanitization", "Energy Audit"], buttons: [{ text: "Book Now" }] },
+        { id: "prem", name: "Premium Care", price: "$399", features: ["Annual Coverage", "All Repairs Included", "24/7 Hotline"], buttons: [{ text: "Book Now" }] },
       ]}
       title="Transparent Pricing"
       description="Simple plans for your home comfort needs."
@@ -149,6 +149,7 @@ export default function LandingPage() {
       background={{ variant: "gradient-bars" }}
       text="Ready to get started? Contact us today for a free estimate on any new installation."
       buttons={[{ text: "Call Now", href: "tel:7063054974" }]}
+      tag="Contact"
     />
   </div>
 
