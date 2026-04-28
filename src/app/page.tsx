@@ -37,9 +37,8 @@ export default function LandingPage() {
         { name: "Reviews", id: "testimonials" },
         { name: "Contact", id: "contact" },
       ]}
-      brandName="Patriot HVAC"
-      button={{
-        text: "(555) 123-HVAC",        href: "tel:5551234822"}}
+      brandName="Patriot Heating and Cooling LLC"
+      button={{ text: "(555) 123-HVAC", href: "tel:7063054974" }}
     />
   </div>
 
@@ -148,7 +147,7 @@ export default function LandingPage() {
       useInvertedBackground={false}
       background={{ variant: "gradient-bars" }}
       text="Ready to get started? Contact us today for a free estimate on any new installation."
-      buttons={[{ text: "Call Now", href: "tel:5551234822" }]}
+      buttons={[{ text: "Call Now", href: "tel:7063054974" }]}
     />
   </div>
 
