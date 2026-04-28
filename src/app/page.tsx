@@ -45,10 +45,11 @@ export default function LandingPage() {
   <div id="hero" data-section="hero">
       <HeroSplitDualMedia
       background={{ variant: "gradient-bars" }}
-      title="Reliable Comfort in Every Season"
-      description="Professional HVAC solutions for your home and business. Always on time, always reliable."
+      title="Patriot Heating and Cooling LLC"
+      description="Professional HVAC solutions for your home and business. Always on time, always reliable. Providing premium comfort in every season."
       tag="24/7 Emergency Service"
-      buttons={[{ text: "Free Estimates", href: "#contact" }]}
+      buttons={[{ text: "Free Estimates", href: "#contact" }]
+      titleClassName="text-5xl md:text-7xl font-extrabold"
       mediaItems={[
         {
           imageSrc: "http://img.b2bpic.net/free-photo/professional-repairmen-enlisted-air-conditioner-check-refilling-freon-expert-african-american-mechanic-colleague-using-manometers-precisely-measure-pressure-condenser_482257-65757.jpg",          imageAlt: "Technician"},
