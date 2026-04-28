@@ -86,11 +86,11 @@ export default function LandingPage() {
       useInvertedBackground={false}
       title="Why Choose Patriot"
       metrics={[
-        { icon: Clock, label: "Years Experience", title: "Years Experience", value: "15+" },
-        { icon: Truck, label: "Emergency Calls", title: "Emergency Calls", value: "24/7" },
-        { icon: Award, label: "Happy Clients", title: "Happy Clients", value: "1,000+" },
-        { icon: Shield, label: "Licensed Professionals", title: "Licensed Professionals", value: "100%" },
-        { icon: Users, label: "Team Members", title: "Team Members", value: "50+" },
+        { icon: Clock, label: "Years Experience", value: "15+" },
+        { icon: Truck, label: "Emergency Calls", value: "24/7" },
+        { icon: Award, label: "Happy Clients", value: "1,000+" },
+        { icon: Shield, label: "Licensed Professionals", value: "100%" },
+        { icon: Users, label: "Team Members", value: "50+" },
       ]}
       metricsAnimation="slide-up"
     />
@@ -149,7 +149,6 @@ export default function LandingPage() {
       background={{ variant: "gradient-bars" }}
       text="Ready to get started? Contact us today for a free estimate on any new installation."
       buttons={[{ text: "Call Now", href: "tel:7063054974" }]}
-      tag="Contact"
     />
   </div>
 
