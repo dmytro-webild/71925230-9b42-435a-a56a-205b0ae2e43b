@@ -52,9 +52,9 @@ export default function LandingPage() {
       titleClassName="text-5xl md:text-7xl font-extrabold"
       mediaItems={[
         {
-          imageSrc: "https://images.unsplash.com/photo-1596461404966-09c899d07cab?q=80&w=1600&auto=format&fit=crop",          imageAlt: "Professional HVAC technician servicing a residential unit"},
+          imageSrc: "https://images.unsplash.com/photo-1596461404966-09c899d07cab?auto=format&fit=crop&q=80&w=1600",          imageAlt: "Professional HVAC technician servicing a residential unit"},
         {
-          imageSrc: "https://images.unsplash.com/photo-1581092160607-ee22621dd758?q=80&w=1600&auto=format&fit=crop",          imageAlt: "Modern home heating system and ductwork"}
+          imageSrc: "https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&q=80&w=1600",          imageAlt: "Modern home heating system and ductwork"}
       ]}
       mediaAnimation="slide-up"
       rating={5}
@@ -102,11 +102,11 @@ export default function LandingPage() {
       textboxLayout="split"
       useInvertedBackground={true}
       testimonials={[
-        { id: "1", name: "John Doe", handle: "@johnd", testimonial: "Fast, reliable, and professional.", imageSrc: "https://images.unsplash.com/photo-1560250097-0b93528c311a?q=80&w=400&auto=format&fit=crop" },
-        { id: "2", name: "Jane Smith", handle: "@janes", testimonial: "My AC died during a heatwave and they were here within an hour.", imageSrc: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?q=80&w=400&auto=format&fit=crop" },
-        { id: "3", name: "Bob Lee", handle: "@bob", testimonial: "Great experience, very transparent pricing.", imageSrc: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?q=80&w=400&auto=format&fit=crop" },
-        { id: "4", name: "Alice Wang", handle: "@alicew", testimonial: "Polite technicians and excellent cleanup.", imageSrc: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?q=80&w=400&auto=format&fit=crop" },
-        { id: "5", name: "Charlie Brown", handle: "@charlie", testimonial: "Highly recommended for all heating needs.", imageSrc: "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?q=80&w=400&auto=format&fit=crop" },
+        { id: "1", name: "John Doe", handle: "@johnd", testimonial: "Fast, reliable, and professional.", imageSrc: "https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&q=80&w=400" },
+        { id: "2", name: "Jane Smith", handle: "@janes", testimonial: "My AC died during a heatwave and they were here within an hour.", imageSrc: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&q=80&w=400" },
+        { id: "3", name: "Bob Lee", handle: "@bob", testimonial: "Great experience, very transparent pricing.", imageSrc: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&q=80&w=400" },
+        { id: "4", name: "Alice Wang", handle: "@alicew", testimonial: "Polite technicians and excellent cleanup.", imageSrc: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&q=80&w=400" },
+        { id: "5", name: "Charlie Brown", handle: "@charlie", testimonial: "Highly recommended for all heating needs.", imageSrc: "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&q=80&w=400" },
       ]}
       title="Customer Stories"
       description="Why our neighbors choose us for their HVAC needs."
